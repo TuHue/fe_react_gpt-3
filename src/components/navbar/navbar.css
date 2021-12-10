@@ -7,7 +7,7 @@
     top: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgb(1 20 35 / 83%);
+    background-color: rgba(1,20,35,.8300000000000001);
 }
 
 .gpt3__navbar-links {
@@ -81,8 +81,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    flex-direction: column;
-    
+    flex-direction: column;    
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
@@ -93,6 +92,7 @@
     min-width: 210px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    transition: width 2s;
 }
 
 .gpt3__navbar-menu_container p {
