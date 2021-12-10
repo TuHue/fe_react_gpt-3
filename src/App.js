@@ -10,7 +10,10 @@ import {
   Header,
 } from "./containers";
 import './App.css';
+
 function App() {
+
+
   return (
     <div className="App">
       <div className="gradient_bg">
@@ -19,7 +22,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Features />
+      <Features  />
       <Possibility />
       <CTA />
       <Blog />
